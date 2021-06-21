@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-post.css" />
+    <title>Post Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="home.html" id="title">Binus Forum</a>
+      <div class="navbar">
+        <a href="#" id="forum">Forum</a>
+        <a href="login.html" id="logout">Logout</a>
+      </div>
+    </header>
+
+    <div class="contents">
+      <div class="ad">
+        <p>ads</p>
+      </div>
+
+      <div class="post-forum">
+        <div class="container">
+          <div class="title">
+            <tr>
+              <td>
+                <label for="title" id="title-text">Title:</label>
+              </td>
+            </tr>
+          </div>
+          <tr>
+            <td><input type="text" name="title" id="title-box" /></td>
+          </tr>
+
+          <div class="description">
+            <tr>
+              <td>
+                <label for="description" id="description-text"
+                  >Description:</label
+                >
+              </td>
+            </tr>
+          </div>
+          <tr>
+            <td><textarea id="desc"></textarea></td>
+          </tr>
+
+          <div class="file-categories">
+            <div>
+              <tr>
+                <td><label for="file" id="file-text">File:</label></td>
+              </tr>
+              <tr>
+                <span class="btn-addfile">Add File</span>
+              </tr>
+            </div>
+            <div>
+              <tr>
+                <label for="categories" id="categories-text">Categories:</label>
+              </tr>
+              <tr>
+                <td>
+                  <select name="Categories" id="categories-box">
+                    <option value="">Categories</option>
+                    <option value="organisasi">Organisasi</option>
+                    <option value="pengumuman">Pengumuman</option>
+                    <option value="pengumuman-Nilai">Pengumuman Nilai</option>
+                    <option value="pengumuman-beasiswa">Beasiswa Binus</option>
+                  </select>
+                </td>
+              </tr>
+            </div>
+          </div>
+
+          <div class="submit">
+            <span class="btn-submit">Submit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="categories">
+        <h3>Categories</h3>
+        <div class="cats">
+          <p>Pengumuman Autodebet</p>
+          <p>Unit Kegiatan Mahasiswa</p>
+          <p>Pengumuman Nilai UAS</p>
+          <p>Penerimaan Mahasiswa Baru 2022</p>
+          <p>Binus Center</p>
+          <p>Graduation 63</p>
+          <p>Pengumuman Sentra Vaksin Binus</p>
+          <p>Syarat Skripsi</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

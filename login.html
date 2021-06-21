@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binus Forum - Register</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="style-login.css" />
+  </head>
+  <body>
+    <header>
+      <a href="" id="title">Binus Forum</a>
+      <div class="navbar">
+        <a href="" id="forum">Forum</a>
+        <a href="home.html" id="logout">Logout</a>
+      </div>
+    </header>
+    <section>
+      <div class="body">
+        <div id="content-title">
+          <span>Login</span>
+        </div>
+        <div class="ad">ad</div>
+        <div class="container">
+          <img id="binus" src="assets/LogoBinus.png" alt="" />
+          <div class="form">
+            <div class="inputfield">
+              <label for="emailTxt">Email:</label>
+              <input type="email" class="input" name="emailTxt" id="emailTxt" />
+            </div>
+            <div class="inputfield">
+              <label for="passwordTxt">Password:</label>
+              <input
+                type="password"
+                class="input"
+                name="passwordTxt"
+                id="passwordTxt"
+              />
+            </div>
+            <div id="errorMessage"></div>
+            <div class="inputfieldBtn">
+              <button class="btn" onclick="validate()">Login</button>
+            </div>
+            <div id="already">
+              <span>Don't have an account?</span>
+              <a id="loginhere" href="register.html">Register Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+.body {
+    padding: 40px;
+}
+
+.ad {
+    width: 200px;
+    height: 600px;
+    background: linear-gradient(
+      172.92deg,
+      rgba(255, 255, 255, 0.39) 1.85%,
+      rgba(255, 255, 255, 0) 96.86%
+    );
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    left: 50px;
+    top: 110px;
+}
+
+#content-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#binus {
+    width: 250px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 100%;
+}
+
+.inputfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 50px;
+    margin-bottom: 15px;
+}
+
+.inputfield label {
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.inputfield .input {
+    width: 95%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+.inputfield .roleselect {
+    width: 100%;
+    height: 36.4px;
+}
+
+.inputfield .roleselect select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+}
+
+.inputfield .input:focus, .inputfield .textarea:focus, .inputfield .roleselect select:focus {
+    border: 1px solid #518CFF;
+    transition: 0.2s ease;
+}
+
+.inputfieldBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.inputfieldBtn .btn {
+    width: 125px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 15px;
+    border: 0px;
+    background-color:#2B73FF;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+}
+
+.inputfieldBtn .btn:hover {
+    background-color:#6095ff;
+}
+
+#errorMessage {
+    color: red;
+    text-align: center;
+}
+
+#already {
+    text-align: center;
+}
+
+#loginhere {
+    text-decoration: none;
+    color: #518CFF;
+}
